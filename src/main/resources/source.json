@@ -1,0 +1,58 @@
+[
+  {
+    "value": 0,
+    "gameStatus": "INTERIM",
+    "phrase": "Ты потерял память?\nПринять вызов НЛО?",
+    "choice": "",
+    "firstOpportunity": 1,
+    "secondOpportunity": 2
+  },
+  {
+    "value": 1,
+    "gameStatus": "INTERIM",
+    "phrase": "Ты принял вызов.\nПоднимаешься на мостик к капитану?",
+    "choice": "Принять вызов",
+    "firstOpportunity": 3,
+    "secondOpportunity": 4
+  },
+  {
+    "value": 2,
+    "gameStatus": "LOSE",
+    "phrase": "Ты отклонил вызов.",
+    "choice": "Отклонить вызов",
+    "firstOpportunity": null,
+    "secondOpportunity": null
+  },
+  {
+    "value": 3,
+    "gameStatus": "INTERIM",
+    "phrase": "Ты поднялся на мостик.\nТы кто?",
+    "choice": "Подняться на мостик",
+    "firstOpportunity": 5,
+    "secondOpportunity": 6
+  },
+  {
+    "value": 4,
+    "gameStatus": "LOSE",
+    "phrase": "Ты не пошел на переговоры.",
+    "choice": "Отказаться подниматься на мостик",
+    "firstOpportunity": null,
+    "secondOpportunity": null
+  },
+  {
+    "value": 5,
+    "gameStatus": "WIN",
+    "phrase": "Тебя вернули домой.",
+    "choice": "Расказать правду о себе",
+    "firstOpportunity": null,
+    "secondOpportunity": null
+  },
+  {
+    "value": 6,
+    "gameStatus": "LOSE",
+    "phrase": "Твою ложь разоблачили.",
+    "choice": "Солгать о себе",
+    "firstOpportunity": null,
+    "secondOpportunity": null
+  }
+]
